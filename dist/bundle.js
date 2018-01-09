@@ -69,13 +69,19 @@
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__a_js__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__a_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__a_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__b_js__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__a__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__a___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__a__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__b__ = __webpack_require__(2);
 
 
-
+//Урок2.Установка і перший запуск webpack
+//Розробники радять установлювати локально щоб не було плутанини версій npm install --save-dev webpack
+//і тоді призапуску потрібно використовувати команду npx webpack init.js out.js
 console.log('./init')
+// Урок3.Командні інтерфейси -  див всі команди з цього уроку в INFO/webpack
+// Урок4.Робота з npm - зовнішні бібліотеки встановлюємо через npm --save і підключаємо як в ES6 - import _ from 'lodash'(до прикладу) 
+// Урок5.webpack.config.js - опції цього файлу див в ньому з коментами
+
 
 /***/ }),
 /* 1 */
@@ -102,7 +108,7 @@ console.log('b')
 /* 3 */
 /***/ (function(module, exports) {
 
-console.log('c');
+console.log('c-1');
 
 
 /***/ }),
